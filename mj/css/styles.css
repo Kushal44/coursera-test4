@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Allura-Regular'; /*a name to be used later*/
+    src: url('../fonts/Allura-Regular.ttf'); /*URL to font*/
+}
+
+body{
+  background-color: rgb(255, 217, 102);
+  font-family:'Allura-Regular';
+
+}
+
+#maininvite{
+    margin-top: 60px;
+    text-align: right;
+}
+
+#invitation{
+  color: rgb(200, 79, 0);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#date{
+  color: rgb(242, 111, 25);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#ganesh-img{
+  background: url("../images/ganesha.png") no-repeat;
+  width: 316px;
+  height: 238px;
+  margin: 10px 15px 10px 0;
+}
+
+#manoj{
+    color: rgb(200, 79, 0);
+    font-size:  40px;
+    font-weight: bold;
+}
+
+#weds{
+    color: rgb(242, 111, 25);
+    font-size : 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#sweeti{
+    color: rgb(200, 79, 0);
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+#map-tile {
+ height: 500px;
+ width: 100%;
+ margin-bottom: 15px;
+ position: relative;
+ border: 2px solid #3F0C1F;
+ overflow: hidden;
+}
+
+#program{
+  background: url("../images/program.jpg") no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+#map-tile:hover, #program:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#map-tile span, #program span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;;
+	font-size: 2.0em;
+	text-transform: uppercase;
+	background-color: #000;
+  color: rgb(200, 79, 0);
+  font-weight: bold;
+	opacity: .8;
+}
+
+.address{
+  color: rgb(242, 111, 25);
+  font-size : 25px;
+  font-weight: bold;
+}
