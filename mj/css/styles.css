@@ -62,22 +62,26 @@ body{
  overflow: hidden;
 }
 
-#program{
+#program-tile{
   background: url("../images/program.jpg") no-repeat;
   height: 500px;
   width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
 }
 
 #map-tile:hover, #program:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-#map-tile span, #program span{
+#map-tile span, #program-tile span{
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 100%;
-	text-align: center;;
+	text-align: center;
 	font-size: 2.0em;
 	text-transform: uppercase;
 	background-color: #000;
@@ -90,4 +94,37 @@ body{
   color: rgb(242, 111, 25);
   font-size : 25px;
   font-weight: bold;
+}
+
+.programDetails{
+  text-align: center;
+}
+
+#itinerary{
+  margin-top: 75px;
+}
+
+#monday{
+  margin-top: 50px;
+}
+
+.mediumSize{
+  color: rgb(200, 79, 0);
+  font-size:  40px;
+  font-weight: bold;
+}
+
+.mediumSizeWithoutBold{
+  color: rgb(200, 79, 0);
+  font-size:  40px;
+}
+
+.smallSize{
+  color: rgb(242, 111, 25);
+  font-size : 25px;
+  font-weight: bold;
+}
+
+.compliments{
+  text-align: right;
 }
