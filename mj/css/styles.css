@@ -98,9 +98,10 @@ body{
 
 .programDetails{
   text-align: center;
+  margin-top: 50px;
 }
 
-#itinerary{
+.itinerary{
   margin-top: 75px;
 }
 
