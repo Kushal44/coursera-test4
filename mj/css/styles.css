@@ -82,7 +82,7 @@ body{
 	right: 0;
 	width: 100%;
 	text-align: center;
-	font-size: 2.0em;
+	font-size: 3.5em;
 	text-transform: uppercase;
 	background-color: #000;
   color: rgb(200, 79, 0);
@@ -117,7 +117,7 @@ body{
 
 .mediumSizeWithoutBold{
   color: rgb(200, 79, 0);
-  font-size:  40px;
+  font-size:  60px;
 }
 
 .smallSize{
